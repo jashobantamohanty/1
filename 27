@@ -1,0 +1,14 @@
+a = float(input("Enter the principal amount  ")) 
+b = float(input("Enter the number of years  "))
+c = float(input("Enter the rate of interest "))
+if a>b:
+    if a>c:
+        print(a)
+    else:
+        print(c)
+else:
+    if b>c:
+        print(b)
+    else:
+        print(c)
+        
